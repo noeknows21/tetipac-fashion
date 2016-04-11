@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>TetipacSite</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+  <header>
+    <span id="products">Products</span> <span id="about">About</span> <span id="contact">Contact</span>
+  </header>
+
+<%= yield %>
+
+<footer>
+  Tetipac Fashion 2016
+</footer>
+
+</body>
+</html>
