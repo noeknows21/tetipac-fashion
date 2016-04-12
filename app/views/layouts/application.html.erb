@@ -7,15 +7,16 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
-  <header>
-    <span id="products">Products</span> <span id="about">About</span> <span id="contact">Contact</span>
-  </header>
+  <div id="everything">
+    <header>
+      <span id="products">Products</span> <span id="gallery">Gallery</span><span id="about">About</span> <span id="contact">Contact</span>
+    </header>
 
-<%= yield %>
-
-<footer>
-  Tetipac Fashion 2016
-</footer>
-
+    <%= yield %>
+    
+    <footer>
+      Tetipac Fashion 2016
+    </footer>
+  </div>
 </body>
 </html>
