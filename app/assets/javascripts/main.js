@@ -8,4 +8,27 @@ function ready() {
       minDisplayTime: 3500
     });
   })
+  
+  $(function () {
+    $("#p1").fluidbox();
+  });
+  $(function () {
+    $("#p2").fluidbox();
+  });
+  $(function () {
+    $("#p3").fluidbox();
+  });
+  $(function () {
+    $("#p4").fluidbox();
+  });
+  $(function () {
+    $("#p5").fluidbox();
+  });
+  $(function () {
+    $("#p6").fluidbox();
+  });
+  $(function () {
+    $("#p7").fluidbox();
+  });
+  
 }
