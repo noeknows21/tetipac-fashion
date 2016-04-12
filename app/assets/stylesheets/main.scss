@@ -18,7 +18,7 @@ body {
   padding: 0 0 1em 0;
 }
 
-a {
+a { 
   text-decoration: none !important;
   color: white;
   text-align: center;
@@ -43,6 +43,7 @@ footer {
   top: 3.5em;
   min-height: 85vh;
   margin-top: 5vh;
+  text-align: center;
 }
 
 #everything {
@@ -101,8 +102,17 @@ nav {
 
 /* pics */
 img {
-  height: 15vh;
-  width: 20vw;
+  height: 10em;
+  width: 15em;
   margin: 1em;
+}
+
+.portrait {
+  height:15em;
+  width:10em;
+}
+
+.fluidbox__wrap {
+  display: inline;
 }
   
