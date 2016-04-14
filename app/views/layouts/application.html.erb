@@ -15,18 +15,18 @@
 </head>
 <body>
   <div id="everything">
-    <nav class="navbar navbar-default navbar-fixed-top">
+    <nav id="header" class="navbar navbar-default navbar-fixed-top">
       <a id="home" class="head-links" href="/">Home</a> 
       <a id="products" class="head-links" href="/main/products">Products</a> 
-      <a id="gallery" class="head-links">Gallery</a>
+      <a id="gallery" class="head-links"  href="/main/gallery">Gallery</a>
       <a id="contact" class="head-links">Contact</a>
     </nav>
 
     <%= yield %>
     
-    <footer>
+    <nav id="footer" class="navbar navbar-default navbar-fixed-bottom">
       Tetipac Fashion 2016
-    </footer>
+    </nav>
   </div>
 </body>
 </html>

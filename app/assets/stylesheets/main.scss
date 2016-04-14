@@ -26,23 +26,19 @@ a {
 }
 
 
-footer {
+#footer {
   background-color: black;
   color:white;
   font-size: 1em;
-  width: 105%;
-  right: 0;
-  bottom: -13.5%;
   text-align: center;
-  position: absolute;
-  height: 9vh;
+  min-height: 2.5em;
 }
 
 .page-specific {
   position: relative;
   top: 3.5em;
   min-height: 85vh;
-  margin-top: 5vh;
+  margin: 5vh 0 5vh 0;
   text-align: center;
 }
 
@@ -53,7 +49,7 @@ footer {
 
 h1, #index-tagline {
   position: relative;
-  top:20vh;
+  top:10vh;
   font-size: 3.5em;
   text-align: center;
   font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
@@ -62,10 +58,11 @@ h1, #index-tagline {
 
 #index-tagline {
   font-size: 1.25em;
+  margin-bottom: 2em;
 }
 
 /* header */
-nav {
+#header {
   background-color: black !important;
   color:white;
   position:fixed;
@@ -102,17 +99,41 @@ nav {
 
 /* pics */
 img {
-  height: 10em;
-  width: 15em;
+  height: 13.5em;
+  width: 18.5em;
   margin: 1em;
 }
 
 .portrait {
-  height:15em;
-  width:10em;
+  height:18.5em;
+  width:13.5em;
 }
 
 .fluidbox__wrap {
   display: inline;
+}
+
+/* carousel */
+#carousel-example-generic {
+  text-align: center;
+  width: 60em;
+  height: 40em;
+  position: relative;
+  margin: auto;
+  margin-top: 4em;
+}
+
+.item > img {
+  margin: auto;
+  text-align: center;
+  height: 30em !important;
+  width: 30em;
+  position: relative;
+  top: 5em;
+}
+
+.item, .carousel-inner {
+  width: 60em;
+  height: 40em;
 }
   
