@@ -21,7 +21,7 @@ body {
 a { 
   text-decoration: none !important;
   color: white;
-  text-align: center;
+  // text-align: center;
   position: relative;
 }
 
@@ -59,6 +59,17 @@ h1, #index-tagline {
 #index-tagline {
   font-size: 1.25em;
   margin-bottom: 2em;
+}
+
+.pic-descriptions, .portrait-descriptions {
+  background-color: white;
+  width:21.5em;
+  margin:auto;
+  border-radius: 7px;
+}
+
+.portrait-descriptions {
+  width: 17em;
 }
 
 /* header */
@@ -99,14 +110,14 @@ h1, #index-tagline {
 
 /* pics */
 img {
-  height: 13.5em;
-  width: 18.5em;
+  height: 16.5em;
+  width: 21.5em;
   margin: 1em;
 }
 
 .portrait {
-  height:18.5em;
-  width:13.5em;
+  height:21.5em;
+  width:16.5em;
 }
 
 .fluidbox__wrap {
