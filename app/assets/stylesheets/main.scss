@@ -140,11 +140,24 @@ img {
   height: 30em !important;
   width: 30em;
   position: relative;
-  top: 5em;
+  top: 2em;
 }
 
 .item, .carousel-inner {
   width: 60em;
   height: 40em;
+}
+
+.carousel-caption {
+  color: #432d16;
+  font-size:1.5em;
+  background-color: white;
+  height:1.5em;
+  width:20em;
+  position: relative;
+  left: 10em;
+  right:0em;
+  bottom:-1.25em;
+  padding:0;
 }
   
