@@ -1,7 +1,7 @@
 class UserMailer < ApplicationMailer
-  default from: ' tetipacsite@gmail.com'
+  default from: (ENV["GMAIL_TETI_USER"] + "@gmail.com")
   
   def contact_email
-    mail(to: 'noeon270@hotmail.com', subject: 'New Message')
+    mail(to: ENV["EMAIL_RECEIVER"], subject: 'New Message')
   end
 end

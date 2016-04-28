@@ -21,6 +21,9 @@ class MainController < ApplicationController
     if params[:name] != '' && params[:message] != '' && params[:email] != ''
       if /\A([\w+\-].?)+@[a-z\d\-]+(\.[a-z]+)*\.[a-z]+\z/i.match(params[:email])
       UserMailer.contact_email.deliver_now
+      $customer_name = ''
+      $customer_email = ''
+      $message_content = ''
       else
         redirect_to '/main/contact', notice: 'Invalid email format'
       end
