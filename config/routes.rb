@@ -7,6 +7,10 @@ Rails.application.routes.draw do
   
   get 'main/products'
   get 'main/gallery'
+  get 'main/contact'
+  get 'main/send_email'
+  
+  post 'main/contact' => 'main#send_email'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'

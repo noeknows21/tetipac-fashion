@@ -1,0 +1,24 @@
+<div class="page-specific">
+  
+  <h2> Contact us for details on how to order </h2>
+  <h3> We are happy to answer any questions you may have </h3>
+  
+  <%= form_tag do %>
+  <%= label_tag(:name, "Name") %>
+  <br />
+  <%= text_field_tag(:name, content = $customer_name) %>
+  <br /> <br />
+  <%= label_tag(:email, "Email") %>
+  <br />
+  <%= text_field_tag(:email, content = $customer_email) %>
+  <br /> <br />
+  <%= label_tag(:message, "Message") %>
+  <br />
+  <%= text_area_tag(:message, content = $message_content) %>
+  <br />
+  <%= submit_tag("Send") %>
+  <% end %>
+  
+  <p id="notice"> <%= notice %> </p>
+  
+</div>

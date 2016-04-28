@@ -18,6 +18,11 @@ body {
   padding: 0 0 1em 0;
 }
 
+#notice {
+  font-size: 2em;
+  color: red;
+}
+
 a { 
   text-decoration: none !important;
   color: white;
@@ -159,5 +164,12 @@ img {
   right:0em;
   bottom:-1.25em;
   padding:0;
+}
+
+/* contact page */
+
+#message {
+  height:10em;
+  width: 20em;
 }
   
