@@ -1,6 +1,11 @@
 $(document).on('ready page:load', ready);
 function ready() {
   
+  $( "#image-click-notice" ).animate({
+    opacity: 1,
+    fontSize: "1.5em",
+  }, 4000 );
+  
   $(function () {
       $('.tlt').textillate({ in: { effect: 'fadeInRight' }, 
       loop: true, 
