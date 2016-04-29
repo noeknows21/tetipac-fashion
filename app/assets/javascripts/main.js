@@ -1,10 +1,12 @@
 $(document).on('ready page:load', ready);
 function ready() {
   
+  //products page animation
   $( "#image-click-notice" ).animate({
     opacity: 1,
     fontSize: "1.5em",
   }, 4000 );
+  //end products page animation
   
   $(function () {
       $('.tlt').textillate({ in: { effect: 'fadeInRight' }, 
