@@ -16,16 +16,7 @@ body {
   min-height:100%;
   margin: 0;
   padding: 0 0 1em 0;
-}
-
-#notice {
-  font-size: 2em;
-  color: red;
-}
-
-#call-us {
-  font-size:1.75em;
-}
+}  
 
 a { 
   text-decoration: none !important;
@@ -68,6 +59,17 @@ h1, #index-tagline {
 #index-tagline {
   font-size: 1.25em;
   margin-bottom: 2em;
+}
+
+/* products */
+
+#image-click-notice {
+  opacity: 0;
+  text-align: center;
+}
+
+#click-notice-container {
+    height:3em;
 }
 
 .pic-descriptions, .portrait-descriptions {
@@ -176,4 +178,14 @@ img {
   height:10em;
   width: 20em;
 }
+
+#notice {
+  font-size: 2em;
+  color: red;
+}
+
+#call-us {
+  font-size:1.75em;
+}
+
   
