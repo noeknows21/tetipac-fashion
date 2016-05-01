@@ -5,7 +5,7 @@ function ready() {
   $( "#image-click-notice" ).animate({
     opacity: 1,
     fontSize: "1.5em",
-  }, 4000 );
+  }, 3500 );
   //end products page animation
   
   $(function () {
