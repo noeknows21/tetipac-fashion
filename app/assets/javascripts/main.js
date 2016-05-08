@@ -1,21 +1,21 @@
 $(document).on('ready page:load', ready);
 function ready() {
-  
+
   //products page animation
   $( "#image-click-notice" ).animate({
     opacity: 1,
     fontSize: "1.5em",
-  }, 3500 );
+  }, 2300 );
   //end products page animation
-  
+
   $(function () {
-      $('.tlt').textillate({ in: { effect: 'fadeInRight' }, 
-      loop: true, 
+      $('.tlt').textillate({ in: { effect: 'fadeInRight' },
+      loop: true,
       out: {effect: 'fadeOutLeft', reverse:true},
       minDisplayTime: 3500
     });
   })
-  
+
   $(function () {
     $("#p1").fluidbox();
   });
@@ -37,5 +37,5 @@ function ready() {
   $(function () {
     $("#p7").fluidbox();
   });
-  
+
 }
